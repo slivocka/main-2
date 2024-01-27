@@ -1,0 +1,23 @@
+class Student
+ def __init__(self, name):
+     self.name=name
+     self.progress = 0
+     self.gladness = 50
+     self.alive = True
+
+
+ def to_study(self):
+     print("time to study")
+     self.progress += 0.15
+ def to_chill(self):
+     pass
+ def to_sleep(self):
+     pass
+     print ("time to chill")
+     self.gladness += 5
+     self.progress -= 0.1
+ def to_sleep(self):
+     print("time to sleep")
+     self.gladness += 5
+     self.progress -= 0.1
+ def to_sleep(self):
